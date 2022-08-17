@@ -32,14 +32,14 @@ namespace ArraysAndLists
             Console.WriteLine("Here are the Even numbers in myArray!\n");
             foreach (var num in evens)
             {
-                Console.WriteLine(num);
+                Console.Write($"{ num}, ");
             }
 
             Console.WriteLine();
             Console.WriteLine("And here are the Odd numbers in myArray!\n");
             foreach (var num in odds)
             {
-                Console.WriteLine(num);
+                Console.Write($"{num}, ");
             }
 
             /* Using either a foreach or for loop,
